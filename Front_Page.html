@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Basic HTML metadata and viewport settings -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <!-- Page title -->
+    <title>Escape Crew</title>
+
+    <!-- Linking external Bootstrap and font styles -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Poppins:400,600,700&display=swap" rel="stylesheet">
+
+    <!-- Linking custom styles for this template -->
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/responsive.css" rel="stylesheet">
+
+    <style>
+        /* Style for button container and buttons */
+        .button-group {
+            margin-top: 20px;
+            display: flex;
+            justify-content: space-between; /* Spaces buttons evenly */
+        }
+
+        /* Individual button styling */
+        .button-group a {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: #fff;
+            text-decoration: none;
+            text-align: center;
+            border-radius: 5px;
+            font-size: 16px;
+            width: 30%; /* Ensures buttons have the same width */
+        }
+
+        /* Button hover effect */
+        .button-group a:hover {
+            background-color: #0056b3;
+        }
+
+        /* Ensures the logo fits within its container */
+        .img-box img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        /* Flexbox for logo and heading alignment */
+        .who_are_we {
+            margin-top: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+
+        /* Logo style with margin next to the heading */
+        .who_are_we img {
+            margin-right: 15px;
+            width: 100px;
+            height: auto;
+        }
+
+        .detail-box {
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body class="sub_page">
+    <!-- Hero section (main image banner) -->
+    <div class="hero_area">
+        <div class="hero_bg_box">
+            <div class="img-box">
+                <!-- Background image -->
+                <img src="images/hero-bg.jpg" alt="Hero background">
+            </div>
+        </div>
+
+        <!-- Header section (logo, navigation, and contact info) -->
+        <header class="header_section">
+            <div class="header_top">
+                <div class="container-fluid">
+                    <!-- Contact links (location, phone, email) -->
+                    <div class="contact_link-container">
+                        <a href="">
+                            <i class="fa fa-map-marker" aria-hidden="true"></i>
+                            <span> Radford University </span>
+                        </a>
+                        <a href="">
+                            <i class="fa fa-phone" aria-hidden="true"></i>
+                            <span> Call : +01 1234567890 </span>
+                        </a>
+                        <a href="">
+                            <i class="fa fa-envelope" aria-hidden="true"></i>
+                            <span> demo@gmail.com </span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="header_bottom">
+                <div class="container-fluid">
+                    <!-- Navbar (navigation bar) -->
+                    <nav class="navbar navbar-expand-lg custom_nav-container">
+                        <!-- Website logo or brand -->
+                        <a class="navbar-brand" href="index.html">Escape Crew</a>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
+                            <span class=""></span>
+                        </button>
+                        <div class="collapse navbar-collapse ml-auto" id="navbarSupportedContent">
+                            <ul class="navbar-nav">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="index.html">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="about.html">About</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="service.html">Services</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="team.html">Team</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="contact.html">Contact us</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </header>
+    </div>
+
+    <!-- Centered content layout -->
+    <section class="about_section layout_padding">
+        <div class="container">
+            <!-- Logo centered under the navigation bar -->
+            <div class="img-box text-center">
+                <img src="logo.png" alt="Company Logo">
+            </div>
+
+            <!-- Who Are We section with description and buttons -->
+            <div class="detail-box">
+                <!-- Who Are We heading and description centered -->
+                <div class="heading_container">
+                    <h2>Who Are We?</h2>
+                </div>
+                <p>We are Escape Crew, providing excellent high-quality paper printing and formatting services.</p>
+
+                <!-- Button group aligned under the description -->
+                <div class="button-group">
+                    <a href="team.html">MEET OUR TEAM</a>
+                    <a href="Account_Creation.html">CREATE AN ACCOUNT</a>
+                    <a href="products.html">OUR PRODUCTS</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</body>
+
+</html>
+
